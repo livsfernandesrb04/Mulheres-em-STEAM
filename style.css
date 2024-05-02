@@ -1,0 +1,62 @@
+.body{
+    background-color: rgba(246, 236, 184, 1);
+}
+.inter-extrabold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+.title{
+    background-image: url(Images/TitleBackground.png);
+    padding-bottom: 0.5cm;
+}
+.title1 {
+    color: rgba(109, 0, 147, 1);
+    font-size: 65px;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    padding-top: 1cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+}
+.title2 {
+    color:rgba(159, 38, 202, 1);
+    font-size: 90px;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    margin-top: -1cm;
+    margin-bottom: -1cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+}
+.title3 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 2cm;
+    padding-right: 2cm;
+}
+.namelabels {
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: rgba(63, 36, 98, 1);
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-container > div {
+    padding-inline: 1.5cm;
+    padding-top: 0.5cm;
+    text-justify: auto;
+    text-align: center;
+}
